@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="9" passed="6" failed="0" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-04T15:50:09 EST" name="GalaxyTech Cross Browser Suite" finished-at="2026-01-04T15:50:49 EST" duration-ms="39997">
+  <suite started-at="2026-01-04T20:58:53 EST" name="GalaxyTech Cross Browser Suite" finished-at="2026-01-04T21:00:01 EST" duration-ms="68140">
     <groups>
     </groups>
-    <test started-at="2026-01-04T15:50:09 EST" name="Edge Test" finished-at="2026-01-04T15:50:10 EST" duration-ms="1271">
+    <test started-at="2026-01-04T20:58:53 EST" name="Edge Test" finished-at="2026-01-04T20:58:55 EST" duration-ms="2573">
       <class name="Params.ParamTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@385e9564]" started-at="2026-01-04T15:50:09 EST" name="setup" finished-at="2026-01-04T15:50:10 EST" duration-ms="1208" status="FAIL">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T20:58:53 EST" name="setup" finished-at="2026-01-04T20:58:54 EST" duration-ms="1445" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -15,27 +15,27 @@
               </value>
             </param>
           </params>
-          <exception class="io.github.bonigarcia.wdm.config.WebDriverManagerException">
+          <exception class="org.testng.SkipException">
             <message>
-              <![CDATA[io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net]]>
+              <![CDATA[Skipping test due to setup failure: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net]]>
             </message>
             <full-stacktrace>
-              <![CDATA[io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
-at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1414)
-at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1189)
-at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1430)
-at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1408)
-at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1189)
-at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:426)
-at Params.ParamTest.setup(ParamTest.java:46)
+              <![CDATA[org.testng.SkipException: Skipping test due to setup failure: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
+at Params.ParamTest.setup(ParamTest.java:71)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
 at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
 at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
@@ -46,46 +46,13 @@ at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
-at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1565)
-at io.github.bonigarcia.wdm.managers.EdgeDriverManager.getDriverUrls(EdgeDriverManager.java:115)
-at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1435)
-at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1267)
-at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1183)
-... 23 more
-Caused by: java.net.UnknownHostException: msedgedriver.azureedge.net
-at java.base/java.net.InetAddress$CachedLookup.get(InetAddress.java:988)
-at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688)
-at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43)
-at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
-at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447)
-at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
-at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
-at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
-at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
-at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
-at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
-at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
-at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
-at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
-at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
-at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:157)
-at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1550)
-... 27 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- io.github.bonigarcia.wdm.config.WebDriverManagerException -->
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@385e9564]" started-at="2026-01-04T15:50:10 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T15:50:10 EST" duration-ms="0" status="SKIP">
+        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T20:58:54 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T20:58:54 EST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -98,27 +65,27 @@ at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.
               </value>
             </param>
           </params>
-          <exception class="io.github.bonigarcia.wdm.config.WebDriverManagerException">
+          <exception class="org.testng.SkipException">
             <message>
-              <![CDATA[io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net]]>
+              <![CDATA[Skipping test due to setup failure: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net]]>
             </message>
             <full-stacktrace>
-              <![CDATA[io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
-at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1414)
-at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1189)
-at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1430)
-at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1408)
-at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1189)
-at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:426)
-at Params.ParamTest.setup(ParamTest.java:46)
+              <![CDATA[org.testng.SkipException: Skipping test due to setup failure: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
+at Params.ParamTest.setup(ParamTest.java:71)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
 at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
 at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
@@ -129,46 +96,62 @@ at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
-at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1565)
-at io.github.bonigarcia.wdm.managers.EdgeDriverManager.getDriverUrls(EdgeDriverManager.java:115)
-at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1435)
-at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1267)
-at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1183)
-... 23 more
-Caused by: java.net.UnknownHostException: msedgedriver.azureedge.net
-at java.base/java.net.InetAddress$CachedLookup.get(InetAddress.java:988)
-at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688)
-at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43)
-at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
-at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447)
-at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
-at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
-at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
-at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
-at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
-at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
-at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
-at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
-at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
-at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
-at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:157)
-at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1550)
-... 27 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- io.github.bonigarcia.wdm.config.WebDriverManagerException -->
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- automationExerciseLogin -->
-        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@385e9564]" started-at="2026-01-04T15:50:10 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T15:50:10 EST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T20:58:54 EST" name="tearDown" finished-at="2026-01-04T20:58:54 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T20:58:54 EST" name="setup" finished-at="2026-01-04T20:58:55 EST" duration-ms="580" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping test due to setup failure: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping test due to setup failure: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
+at Params.ParamTest.setup(ParamTest.java:71)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T20:58:55 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T20:58:55 EST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -181,27 +164,27 @@ at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.
               </value>
             </param>
           </params>
-          <exception class="io.github.bonigarcia.wdm.config.WebDriverManagerException">
+          <exception class="org.testng.SkipException">
             <message>
-              <![CDATA[io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net]]>
+              <![CDATA[Skipping test due to setup failure: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net]]>
             </message>
             <full-stacktrace>
-              <![CDATA[io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
-at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1414)
-at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1189)
-at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1430)
-at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1408)
-at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1189)
-at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:426)
-at Params.ParamTest.setup(ParamTest.java:46)
+              <![CDATA[org.testng.SkipException: Skipping test due to setup failure: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
+at Params.ParamTest.setup(ParamTest.java:71)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
 at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
 at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
@@ -212,46 +195,62 @@ at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
-at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1565)
-at io.github.bonigarcia.wdm.managers.EdgeDriverManager.getDriverUrls(EdgeDriverManager.java:115)
-at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1435)
-at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1267)
-at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1183)
-... 23 more
-Caused by: java.net.UnknownHostException: msedgedriver.azureedge.net
-at java.base/java.net.InetAddress$CachedLookup.get(InetAddress.java:988)
-at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688)
-at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43)
-at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
-at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447)
-at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
-at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
-at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
-at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
-at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
-at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
-at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
-at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
-at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
-at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
-at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:157)
-at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1550)
-... 27 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- io.github.bonigarcia.wdm.config.WebDriverManagerException -->
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- automationExerciseLogin -->
-        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@385e9564]" started-at="2026-01-04T15:50:10 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T15:50:10 EST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T20:58:55 EST" name="tearDown" finished-at="2026-01-04T20:58:55 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T20:58:55 EST" name="setup" finished-at="2026-01-04T20:58:55 EST" duration-ms="449" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping test due to setup failure: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping test due to setup failure: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
+at Params.ParamTest.setup(ParamTest.java:71)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T20:58:55 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T20:58:55 EST" duration-ms="1" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -264,27 +263,27 @@ at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.
               </value>
             </param>
           </params>
-          <exception class="io.github.bonigarcia.wdm.config.WebDriverManagerException">
+          <exception class="org.testng.SkipException">
             <message>
-              <![CDATA[io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net]]>
+              <![CDATA[Skipping test due to setup failure: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net]]>
             </message>
             <full-stacktrace>
-              <![CDATA[io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
-at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1414)
-at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1189)
-at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1430)
-at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1408)
-at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1189)
-at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:426)
-at Params.ParamTest.setup(ParamTest.java:46)
+              <![CDATA[org.testng.SkipException: Skipping test due to setup failure: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
+at Params.ParamTest.setup(ParamTest.java:71)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
 at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
 at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
@@ -295,54 +294,21 @@ at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
-at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1565)
-at io.github.bonigarcia.wdm.managers.EdgeDriverManager.getDriverUrls(EdgeDriverManager.java:115)
-at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1435)
-at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1267)
-at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1183)
-... 23 more
-Caused by: java.net.UnknownHostException: msedgedriver.azureedge.net
-at java.base/java.net.InetAddress$CachedLookup.get(InetAddress.java:988)
-at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688)
-at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43)
-at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
-at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447)
-at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
-at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
-at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
-at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
-at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
-at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
-at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
-at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
-at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
-at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
-at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:157)
-at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1550)
-... 27 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- io.github.bonigarcia.wdm.config.WebDriverManagerException -->
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- automationExerciseLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@385e9564]" started-at="2026-01-04T15:50:10 EST" name="tearDown" finished-at="2026-01-04T15:50:10 EST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T20:58:55 EST" name="tearDown" finished-at="2026-01-04T20:58:55 EST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Params.ParamTest -->
     </test> <!-- Edge Test -->
-    <test started-at="2026-01-04T15:50:09 EST" name="Chrome Test" finished-at="2026-01-04T15:50:39 EST" duration-ms="29982">
+    <test started-at="2026-01-04T20:58:53 EST" name="Chrome Test" finished-at="2026-01-04T20:59:28 EST" duration-ms="34945">
       <class name="Params.ParamTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@1ff4931d]" started-at="2026-01-04T15:50:09 EST" name="setup" finished-at="2026-01-04T15:50:11 EST" duration-ms="2059" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@385c9627]" started-at="2026-01-04T20:58:53 EST" name="setup" finished-at="2026-01-04T20:58:55 EST" duration-ms="2050" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -353,7 +319,7 @@ at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@1ff4931d]" started-at="2026-01-04T15:50:11 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T15:50:22 EST" duration-ms="11243" status="PASS">
+        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@385c9627]" started-at="2026-01-04T20:58:55 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T20:59:00 EST" duration-ms="5667" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -369,7 +335,22 @@ at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.
           <reporter-output>
           </reporter-output>
         </test-method> <!-- automationExerciseLogin -->
-        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@1ff4931d]" started-at="2026-01-04T15:50:22 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T15:50:31 EST" duration-ms="9301" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@385c9627]" started-at="2026-01-04T20:59:00 EST" name="tearDown" finished-at="2026-01-04T20:59:01 EST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@385c9627]" started-at="2026-01-04T20:59:01 EST" name="setup" finished-at="2026-01-04T20:59:02 EST" duration-ms="1087" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@385c9627]" started-at="2026-01-04T20:59:02 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T20:59:15 EST" duration-ms="13660" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -385,7 +366,22 @@ at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.
           <reporter-output>
           </reporter-output>
         </test-method> <!-- automationExerciseLogin -->
-        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@1ff4931d]" started-at="2026-01-04T15:50:31 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T15:50:38 EST" duration-ms="7074" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@385c9627]" started-at="2026-01-04T20:59:15 EST" name="tearDown" finished-at="2026-01-04T20:59:16 EST" duration-ms="940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@385c9627]" started-at="2026-01-04T20:59:16 EST" name="setup" finished-at="2026-01-04T20:59:18 EST" duration-ms="1504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@385c9627]" started-at="2026-01-04T20:59:18 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T20:59:27 EST" duration-ms="9481" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -401,15 +397,15 @@ at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.
           <reporter-output>
           </reporter-output>
         </test-method> <!-- automationExerciseLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@1ff4931d]" started-at="2026-01-04T15:50:38 EST" name="tearDown" finished-at="2026-01-04T15:50:39 EST" duration-ms="268" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@385c9627]" started-at="2026-01-04T20:59:27 EST" name="tearDown" finished-at="2026-01-04T20:59:28 EST" duration-ms="269" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Params.ParamTest -->
     </test> <!-- Chrome Test -->
-    <test started-at="2026-01-04T15:50:09 EST" name="Firefox Test" finished-at="2026-01-04T15:50:49 EST" duration-ms="39997">
+    <test started-at="2026-01-04T20:58:53 EST" name="Firefox Test" finished-at="2026-01-04T21:00:01 EST" duration-ms="68140">
       <class name="Params.ParamTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T15:50:09 EST" name="setup" finished-at="2026-01-04T15:50:14 EST" duration-ms="5605" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@f79e]" started-at="2026-01-04T20:58:53 EST" name="setup" finished-at="2026-01-04T20:58:58 EST" duration-ms="5753" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -420,7 +416,7 @@ at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T15:50:14 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T15:50:36 EST" duration-ms="21307" status="PASS">
+        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@f79e]" started-at="2026-01-04T20:58:58 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T20:59:23 EST" duration-ms="24626" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -436,7 +432,22 @@ at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.
           <reporter-output>
           </reporter-output>
         </test-method> <!-- automationExerciseLogin -->
-        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T15:50:36 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T15:50:42 EST" duration-ms="6122" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@f79e]" started-at="2026-01-04T20:59:23 EST" name="tearDown" finished-at="2026-01-04T20:59:25 EST" duration-ms="2188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@f79e]" started-at="2026-01-04T20:59:25 EST" name="setup" finished-at="2026-01-04T20:59:30 EST" duration-ms="4808" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@f79e]" started-at="2026-01-04T20:59:30 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T20:59:43 EST" duration-ms="13002" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -452,7 +463,22 @@ at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.
           <reporter-output>
           </reporter-output>
         </test-method> <!-- automationExerciseLogin -->
-        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T15:50:42 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T15:50:47 EST" duration-ms="5323" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@f79e]" started-at="2026-01-04T20:59:43 EST" name="tearDown" finished-at="2026-01-04T20:59:45 EST" duration-ms="1658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@f79e]" started-at="2026-01-04T20:59:45 EST" name="setup" finished-at="2026-01-04T20:59:49 EST" duration-ms="4515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@f79e]" started-at="2026-01-04T20:59:49 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T20:59:59 EST" duration-ms="9681" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -468,7 +494,7 @@ at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.
           <reporter-output>
           </reporter-output>
         </test-method> <!-- automationExerciseLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T15:50:47 EST" name="tearDown" finished-at="2026-01-04T15:50:49 EST" duration-ms="1603" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@f79e]" started-at="2026-01-04T20:59:59 EST" name="tearDown" finished-at="2026-01-04T21:00:01 EST" duration-ms="1863" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
