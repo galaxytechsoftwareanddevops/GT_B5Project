@@ -52,21 +52,21 @@
         <plugins>
 
             <!-- Maven Surefire Plugin (TestNG + Jenkins CI) -->
-            <plugin>
-             <groupId>org.apache.maven.plugins</groupId>
+           <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-surefire-plugin</artifactId>
     <version>3.2.5</version>
 
     <configuration>
-        <!-- CI friendly: do not fail build on test failure -->
+        <!-- Jenkins friendly -->
         <testFailureIgnore>true</testFailureIgnore>
 
-        <!-- TestNG suite file (loaded from src/test/resources) -->
+        <!-- Explicit TestNG suite path -->
         <suiteXmlFiles>
-            <suiteXmlFile>testing.xml</suiteXmlFile>
+            <suiteXmlFile>${project.basedir}/src/test/resources/testing.xml</suiteXmlFile>
         </suiteXmlFiles>
     </configuration>
-            </plugin>
+</plugin>
 
         </plugins>
     </build>
