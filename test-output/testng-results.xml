@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="9" passed="6" failed="0" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-04T20:58:53 EST" name="GalaxyTech Cross Browser Suite" finished-at="2026-01-04T21:00:01 EST" duration-ms="68140">
+  <suite started-at="2026-01-04T21:15:26 EST" name="GalaxyTech Cross Browser Suite" finished-at="2026-01-04T21:16:26 EST" duration-ms="59976">
     <groups>
     </groups>
-    <test started-at="2026-01-04T20:58:53 EST" name="Edge Test" finished-at="2026-01-04T20:58:55 EST" duration-ms="2573">
+    <test started-at="2026-01-04T21:15:26 EST" name="Edge Test" finished-at="2026-01-04T21:15:29 EST" duration-ms="2138">
       <class name="Params.ParamTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T20:58:53 EST" name="setup" finished-at="2026-01-04T20:58:54 EST" duration-ms="1445" status="SKIP">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T21:15:26 EST" name="setup" finished-at="2026-01-04T21:15:28 EST" duration-ms="1185" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -52,7 +52,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T20:58:54 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T20:58:54 EST" duration-ms="0" status="SKIP">
+        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T21:15:28 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T21:15:28 EST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -102,11 +102,11 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- automationExerciseLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T20:58:54 EST" name="tearDown" finished-at="2026-01-04T20:58:54 EST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T21:15:28 EST" name="tearDown" finished-at="2026-01-04T21:15:28 EST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T20:58:54 EST" name="setup" finished-at="2026-01-04T20:58:55 EST" duration-ms="580" status="SKIP">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T21:15:28 EST" name="setup" finished-at="2026-01-04T21:15:28 EST" duration-ms="363" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -151,7 +151,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T20:58:55 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T20:58:55 EST" duration-ms="0" status="SKIP">
+        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T21:15:28 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T21:15:28 EST" duration-ms="1" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -201,11 +201,11 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- automationExerciseLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T20:58:55 EST" name="tearDown" finished-at="2026-01-04T20:58:55 EST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T21:15:28 EST" name="tearDown" finished-at="2026-01-04T21:15:28 EST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T20:58:55 EST" name="setup" finished-at="2026-01-04T20:58:55 EST" duration-ms="449" status="SKIP">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T21:15:28 EST" name="setup" finished-at="2026-01-04T21:15:29 EST" duration-ms="502" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -250,7 +250,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T20:58:55 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T20:58:55 EST" duration-ms="1" status="SKIP">
+        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T21:15:29 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T21:15:29 EST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -300,15 +300,15 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- automationExerciseLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T20:58:55 EST" name="tearDown" finished-at="2026-01-04T20:58:55 EST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T21:15:29 EST" name="tearDown" finished-at="2026-01-04T21:15:29 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Params.ParamTest -->
     </test> <!-- Edge Test -->
-    <test started-at="2026-01-04T20:58:53 EST" name="Chrome Test" finished-at="2026-01-04T20:59:28 EST" duration-ms="34945">
+    <test started-at="2026-01-04T21:15:26 EST" name="Chrome Test" finished-at="2026-01-04T21:16:01 EST" duration-ms="35043">
       <class name="Params.ParamTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@385c9627]" started-at="2026-01-04T20:58:53 EST" name="setup" finished-at="2026-01-04T20:58:55 EST" duration-ms="2050" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@385c9627]" started-at="2026-01-04T21:15:26 EST" name="setup" finished-at="2026-01-04T21:15:29 EST" duration-ms="2338" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -319,7 +319,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@385c9627]" started-at="2026-01-04T20:58:55 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T20:59:00 EST" duration-ms="5667" status="PASS">
+        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@385c9627]" started-at="2026-01-04T21:15:29 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T21:15:39 EST" duration-ms="10602" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -335,11 +335,11 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- automationExerciseLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@385c9627]" started-at="2026-01-04T20:59:00 EST" name="tearDown" finished-at="2026-01-04T20:59:01 EST" duration-ms="238" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@385c9627]" started-at="2026-01-04T21:15:39 EST" name="tearDown" finished-at="2026-01-04T21:15:40 EST" duration-ms="141" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@385c9627]" started-at="2026-01-04T20:59:01 EST" name="setup" finished-at="2026-01-04T20:59:02 EST" duration-ms="1087" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@385c9627]" started-at="2026-01-04T21:15:40 EST" name="setup" finished-at="2026-01-04T21:15:41 EST" duration-ms="1293" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -350,7 +350,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@385c9627]" started-at="2026-01-04T20:59:02 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T20:59:15 EST" duration-ms="13660" status="PASS">
+        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@385c9627]" started-at="2026-01-04T21:15:41 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T21:15:53 EST" duration-ms="12630" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -366,11 +366,11 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- automationExerciseLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@385c9627]" started-at="2026-01-04T20:59:15 EST" name="tearDown" finished-at="2026-01-04T20:59:16 EST" duration-ms="940" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@385c9627]" started-at="2026-01-04T21:15:53 EST" name="tearDown" finished-at="2026-01-04T21:15:54 EST" duration-ms="177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@385c9627]" started-at="2026-01-04T20:59:16 EST" name="setup" finished-at="2026-01-04T20:59:18 EST" duration-ms="1504" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@385c9627]" started-at="2026-01-04T21:15:54 EST" name="setup" finished-at="2026-01-04T21:15:56 EST" duration-ms="2100" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -381,7 +381,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@385c9627]" started-at="2026-01-04T20:59:18 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T20:59:27 EST" duration-ms="9481" status="PASS">
+        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@385c9627]" started-at="2026-01-04T21:15:56 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T21:16:01 EST" duration-ms="5571" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -397,15 +397,15 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- automationExerciseLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@385c9627]" started-at="2026-01-04T20:59:27 EST" name="tearDown" finished-at="2026-01-04T20:59:28 EST" duration-ms="269" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@385c9627]" started-at="2026-01-04T21:16:01 EST" name="tearDown" finished-at="2026-01-04T21:16:01 EST" duration-ms="131" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Params.ParamTest -->
     </test> <!-- Chrome Test -->
-    <test started-at="2026-01-04T20:58:53 EST" name="Firefox Test" finished-at="2026-01-04T21:00:01 EST" duration-ms="68140">
+    <test started-at="2026-01-04T21:15:26 EST" name="Firefox Test" finished-at="2026-01-04T21:16:26 EST" duration-ms="59976">
       <class name="Params.ParamTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@f79e]" started-at="2026-01-04T20:58:53 EST" name="setup" finished-at="2026-01-04T20:58:58 EST" duration-ms="5753" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@f79e]" started-at="2026-01-04T21:15:26 EST" name="setup" finished-at="2026-01-04T21:15:33 EST" duration-ms="6318" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -416,7 +416,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@f79e]" started-at="2026-01-04T20:58:58 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T20:59:23 EST" duration-ms="24626" status="PASS">
+        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@f79e]" started-at="2026-01-04T21:15:33 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T21:15:51 EST" duration-ms="17969" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -432,11 +432,11 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- automationExerciseLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@f79e]" started-at="2026-01-04T20:59:23 EST" name="tearDown" finished-at="2026-01-04T20:59:25 EST" duration-ms="2188" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@f79e]" started-at="2026-01-04T21:15:51 EST" name="tearDown" finished-at="2026-01-04T21:15:52 EST" duration-ms="1491" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@f79e]" started-at="2026-01-04T20:59:25 EST" name="setup" finished-at="2026-01-04T20:59:30 EST" duration-ms="4808" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@f79e]" started-at="2026-01-04T21:15:52 EST" name="setup" finished-at="2026-01-04T21:15:59 EST" duration-ms="6322" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -447,7 +447,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@f79e]" started-at="2026-01-04T20:59:30 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T20:59:43 EST" duration-ms="13002" status="PASS">
+        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@f79e]" started-at="2026-01-04T21:15:59 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T21:16:09 EST" duration-ms="10596" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -463,11 +463,11 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- automationExerciseLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@f79e]" started-at="2026-01-04T20:59:43 EST" name="tearDown" finished-at="2026-01-04T20:59:45 EST" duration-ms="1658" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@f79e]" started-at="2026-01-04T21:16:09 EST" name="tearDown" finished-at="2026-01-04T21:16:10 EST" duration-ms="1213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@f79e]" started-at="2026-01-04T20:59:45 EST" name="setup" finished-at="2026-01-04T20:59:49 EST" duration-ms="4515" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@f79e]" started-at="2026-01-04T21:16:10 EST" name="setup" finished-at="2026-01-04T21:16:14 EST" duration-ms="3317" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -478,7 +478,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@f79e]" started-at="2026-01-04T20:59:49 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T20:59:59 EST" duration-ms="9681" status="PASS">
+        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@f79e]" started-at="2026-01-04T21:16:14 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T21:16:25 EST" duration-ms="11366" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -494,7 +494,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- automationExerciseLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@f79e]" started-at="2026-01-04T20:59:59 EST" name="tearDown" finished-at="2026-01-04T21:00:01 EST" duration-ms="1863" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@f79e]" started-at="2026-01-04T21:16:25 EST" name="tearDown" finished-at="2026-01-04T21:16:26 EST" duration-ms="1322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
