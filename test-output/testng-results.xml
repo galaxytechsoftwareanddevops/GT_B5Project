@@ -1,314 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="6" failed="0" skipped="3">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-04T21:15:26 EST" name="GalaxyTech Cross Browser Suite" finished-at="2026-01-04T21:16:26 EST" duration-ms="59976">
+  <suite started-at="2026-01-04T21:28:47 EST" name="TestNG Suite" finished-at="2026-01-04T21:29:08 EST" duration-ms="20243">
     <groups>
     </groups>
-    <test started-at="2026-01-04T21:15:26 EST" name="Edge Test" finished-at="2026-01-04T21:15:29 EST" duration-ms="2138">
+    <test started-at="2026-01-04T21:28:47 EST" name="Param Tests" finished-at="2026-01-04T21:29:08 EST" duration-ms="20243">
       <class name="Params.ParamTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T21:15:26 EST" name="setup" finished-at="2026-01-04T21:15:28 EST" duration-ms="1185" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[Skipping test due to setup failure: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.SkipException: Skipping test due to setup failure: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
-at Params.ParamTest.setup(ParamTest.java:71)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T21:15:28 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T21:15:28 EST" duration-ms="0" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[student1galaxytech@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Admin@123]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[Skipping test due to setup failure: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.SkipException: Skipping test due to setup failure: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
-at Params.ParamTest.setup(ParamTest.java:71)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- automationExerciseLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T21:15:28 EST" name="tearDown" finished-at="2026-01-04T21:15:28 EST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T21:15:28 EST" name="setup" finished-at="2026-01-04T21:15:28 EST" duration-ms="363" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[Skipping test due to setup failure: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.SkipException: Skipping test due to setup failure: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
-at Params.ParamTest.setup(ParamTest.java:71)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T21:15:28 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T21:15:28 EST" duration-ms="1" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[galaxytechtestinghub@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Admin@123]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[Skipping test due to setup failure: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.SkipException: Skipping test due to setup failure: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
-at Params.ParamTest.setup(ParamTest.java:71)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- automationExerciseLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T21:15:28 EST" name="tearDown" finished-at="2026-01-04T21:15:28 EST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T21:15:28 EST" name="setup" finished-at="2026-01-04T21:15:29 EST" duration-ms="502" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[Skipping test due to setup failure: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.SkipException: Skipping test due to setup failure: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
-at Params.ParamTest.setup(ParamTest.java:71)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T21:15:29 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T21:15:29 EST" duration-ms="0" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[student3galaxytech@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Admin@123]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[Skipping test due to setup failure: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.SkipException: Skipping test due to setup failure: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
-at Params.ParamTest.setup(ParamTest.java:71)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- automationExerciseLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@8c3b9d]" started-at="2026-01-04T21:15:29 EST" name="tearDown" finished-at="2026-01-04T21:15:29 EST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Params.ParamTest -->
-    </test> <!-- Edge Test -->
-    <test started-at="2026-01-04T21:15:26 EST" name="Chrome Test" finished-at="2026-01-04T21:16:01 EST" duration-ms="35043">
-      <class name="Params.ParamTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@385c9627]" started-at="2026-01-04T21:15:26 EST" name="setup" finished-at="2026-01-04T21:15:29 EST" duration-ms="2338" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@3fc2959f]" started-at="2026-01-04T21:28:48 EST" name="setup" finished-at="2026-01-04T21:28:49 EST" duration-ms="1668" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -319,7 +18,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@385c9627]" started-at="2026-01-04T21:15:29 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T21:15:39 EST" duration-ms="10602" status="PASS">
+        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@3fc2959f]" started-at="2026-01-04T21:28:49 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T21:28:57 EST" duration-ms="7513" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -335,11 +34,11 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- automationExerciseLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@385c9627]" started-at="2026-01-04T21:15:39 EST" name="tearDown" finished-at="2026-01-04T21:15:40 EST" duration-ms="141" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@3fc2959f]" started-at="2026-01-04T21:28:57 EST" name="tearDown" finished-at="2026-01-04T21:28:57 EST" duration-ms="192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@385c9627]" started-at="2026-01-04T21:15:40 EST" name="setup" finished-at="2026-01-04T21:15:41 EST" duration-ms="1293" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@3fc2959f]" started-at="2026-01-04T21:28:57 EST" name="setup" finished-at="2026-01-04T21:28:58 EST" duration-ms="1098" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -350,7 +49,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@385c9627]" started-at="2026-01-04T21:15:41 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T21:15:53 EST" duration-ms="12630" status="PASS">
+        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@3fc2959f]" started-at="2026-01-04T21:28:58 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T21:29:03 EST" duration-ms="4861" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -366,11 +65,11 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- automationExerciseLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@385c9627]" started-at="2026-01-04T21:15:53 EST" name="tearDown" finished-at="2026-01-04T21:15:54 EST" duration-ms="177" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@3fc2959f]" started-at="2026-01-04T21:29:03 EST" name="tearDown" finished-at="2026-01-04T21:29:03 EST" duration-ms="192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@385c9627]" started-at="2026-01-04T21:15:54 EST" name="setup" finished-at="2026-01-04T21:15:56 EST" duration-ms="2100" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@3fc2959f]" started-at="2026-01-04T21:29:03 EST" name="setup" finished-at="2026-01-04T21:29:04 EST" duration-ms="918" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -381,7 +80,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@385c9627]" started-at="2026-01-04T21:15:56 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T21:16:01 EST" duration-ms="5571" status="PASS">
+        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@3fc2959f]" started-at="2026-01-04T21:29:04 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T21:29:08 EST" duration-ms="3606" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -397,108 +96,11 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- automationExerciseLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@385c9627]" started-at="2026-01-04T21:16:01 EST" name="tearDown" finished-at="2026-01-04T21:16:01 EST" duration-ms="131" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@3fc2959f]" started-at="2026-01-04T21:29:08 EST" name="tearDown" finished-at="2026-01-04T21:29:08 EST" duration-ms="153" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Params.ParamTest -->
-    </test> <!-- Chrome Test -->
-    <test started-at="2026-01-04T21:15:26 EST" name="Firefox Test" finished-at="2026-01-04T21:16:26 EST" duration-ms="59976">
-      <class name="Params.ParamTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@f79e]" started-at="2026-01-04T21:15:26 EST" name="setup" finished-at="2026-01-04T21:15:33 EST" duration-ms="6318" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@f79e]" started-at="2026-01-04T21:15:33 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T21:15:51 EST" duration-ms="17969" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[student1galaxytech@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Admin@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- automationExerciseLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@f79e]" started-at="2026-01-04T21:15:51 EST" name="tearDown" finished-at="2026-01-04T21:15:52 EST" duration-ms="1491" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@f79e]" started-at="2026-01-04T21:15:52 EST" name="setup" finished-at="2026-01-04T21:15:59 EST" duration-ms="6322" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@f79e]" started-at="2026-01-04T21:15:59 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T21:16:09 EST" duration-ms="10596" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[galaxytechtestinghub@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Admin@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- automationExerciseLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@f79e]" started-at="2026-01-04T21:16:09 EST" name="tearDown" finished-at="2026-01-04T21:16:10 EST" duration-ms="1213" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Params.ParamTest@f79e]" started-at="2026-01-04T21:16:10 EST" name="setup" finished-at="2026-01-04T21:16:14 EST" duration-ms="3317" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="automationExerciseLogin(java.lang.String,java.lang.String)[pri:0, instance:Params.ParamTest@f79e]" started-at="2026-01-04T21:16:14 EST" name="automationExerciseLogin" data-provider="dp" finished-at="2026-01-04T21:16:25 EST" duration-ms="11366" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[student3galaxytech@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Admin@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- automationExerciseLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Params.ParamTest@f79e]" started-at="2026-01-04T21:16:25 EST" name="tearDown" finished-at="2026-01-04T21:16:26 EST" duration-ms="1322" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Params.ParamTest -->
-    </test> <!-- Firefox Test -->
-  </suite> <!-- GalaxyTech Cross Browser Suite -->
+    </test> <!-- Param Tests -->
+  </suite> <!-- TestNG Suite -->
 </testng-results>

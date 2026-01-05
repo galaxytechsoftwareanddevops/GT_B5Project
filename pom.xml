@@ -53,25 +53,19 @@
 
             <!-- Maven Surefire Plugin (TestNG + Jenkins CI) -->
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.2.5</version>
-                <configuration>
+             <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <version>3.2.5</version>
 
-                    <!-- Do not fail Jenkins job on test failure (CI friendly) -->
-                    <testFailureIgnore>true</testFailureIgnore>
+    <configuration>
+        <!-- CI friendly: do not fail build on test failure -->
+        <testFailureIgnore>true</testFailureIgnore>
 
-                    <!-- TestNG suite file -->
-                    <suiteXmlFiles>
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
-                    </suiteXmlFiles>
-
-                    <!-- Reports directory -->
-                    <reportsDirectory>
-                        ${project.build.directory}/surefire-reports
-                    </reportsDirectory>
-
-                </configuration>
+        <!-- TestNG suite file (loaded from src/test/resources) -->
+        <suiteXmlFiles>
+            <suiteXmlFile>testing.xml</suiteXmlFile>
+        </suiteXmlFiles>
+    </configuration>
             </plugin>
 
         </plugins>
