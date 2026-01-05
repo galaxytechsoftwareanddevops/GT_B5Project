@@ -5,7 +5,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>Com.trainingofweekend</groupId>
+    <groupId>com.trainingofweekend</groupId>
     <artifactId>softwaretestingproject</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
@@ -51,22 +51,26 @@
     <build>
         <plugins>
 
-            <!-- Maven Surefire -->
+            <!-- Maven Surefire Plugin (TestNG + Jenkins CI) -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.2.5</version>
                 <configuration>
-                    <!-- 🔑 CRITICAL FOR JENKINS -->
+
+                    <!-- Do not fail Jenkins job on test failure (CI friendly) -->
                     <testFailureIgnore>true</testFailureIgnore>
 
-                    <!-- TestNG Suite -->
+                    <!-- TestNG suite file -->
                     <suiteXmlFiles>
-                        <suiteXmlFile>src/test/resources/testing.xml</suiteXmlFile>
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
 
-                    <!-- Reports -->
-                    <reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
+                    <!-- Reports directory -->
+                    <reportsDirectory>
+                        ${project.build.directory}/surefire-reports
+                    </reportsDirectory>
+
                 </configuration>
             </plugin>
 
